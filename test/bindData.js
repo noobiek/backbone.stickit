@@ -2118,7 +2118,6 @@ $(document).ready(function() {
             'hasCid': {
               observe: 'cid',
               onGet: function(cid) {
-                console.log(cid)
                 if (cid) assert.equal(cid, this.cid);
                 return true;
               }
